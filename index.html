@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="icon" href="/images/logo-todo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <p align="left" class="head"><b> To-Do List  <img src="/images/circle.png" alt="Image"></b>
+                </p>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="about.html"><b>About</b></a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="container">
+        <div class="inputbox">
+            <label for="task">Task Name:</label><br><br>
+            <input type="text" placeholder="Enter Your Task" id="task"><br><br>
+            <label for="date-time">Task Submission Deadline:</label><br><br>
+            <input type="datetime-local" placeholder="Select Date & Time" id="date-time">
+            <br>
+            <button onclick="Add()">Add</button>
+            <button onclick="Clear()">Clear</button>
+            <hr>
+        </div>
+        <table border="5" width="50%" height="50%">
+            <tr align="center">
+                <td>
+                    <div class="text">
+                            
+                    </div>
+                    
+                </td>
+            
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <footer>
+        <p align="center" class="copyright"><strong>Copyright &copy; Avirup-ToDoList</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
